@@ -11,4 +11,4 @@ RUN apt update \
     && apt autoremove -y \
     && apt clean -y \
     && rm -rf /var/lib/apt/lists/* \
-    && gem install rubocop rubocop-performance rubocop-rails rubocop-packaging
+    && gem install rubocop rubocop-performance rubocop-rails rubocop-packaging solargraph

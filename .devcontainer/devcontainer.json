@@ -1,9 +1,13 @@
 {
     "name": "project-name",
     "dockerFile": "Dockerfile",
+    "forwardPorts": [3001],
+    "appPort": [3001],
     "extensions": [
         "ms-azuretools.vscode-docker",
         "rebornix.ruby",
-        "misogi.ruby-rubocop"
+        "misogi.ruby-rubocop",
+        "castwide.solargraph",
+        "hridoy.rails-snippets"
     ],
 }
